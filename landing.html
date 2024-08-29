@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     />
     <title>Shoop</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="land-styles.css" />
   </head>
   <body class="bg-dark" data-bs-theme="dark">
     <nav
@@ -36,17 +36,36 @@
             <a class="nav-link" href="#highlights">Highlights</a>
           </div>
         </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="currentColor"
+          class="bi bi-cart me-3"
+          viewBox="0 0 16 16"
+          style="cursor: pointer"
+        >
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+          />
+        </svg>
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
           <input
-            class="form-control form-control-dark text-bg-dark me-4"
+            class="form-control form-control-dark text-bg-dark me-3"
             type="search"
             placeholder="Looking for something?"
             aria-label="Search"
           />
         </form>
         <div class="text-end">
-          <button class="btn btn-outline-light me-2">Login</button>
-          <button class="btn btn-warning">Sign Up</button>
+          <a href="login/login.html"
+            ><button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button></a
+          >
+          <a href="signup/signup.html">
+            <button class="btn btn-warning">Sign Up</button></a
+          >
         </div>
       </div>
     </nav>
@@ -66,9 +85,11 @@
           <b>30%</b> discount till the end of July.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-            Let's Go Shopping !
-          </button>
+          <a href="#news">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              Let's Go Shopping !
+            </button></a
+          >
         </div>
       </div>
     </div>
