@@ -1,0 +1,14 @@
+div[class^="col rounded-4 bg-light-subtle"] {
+    transition: ease-out 0.25s;
+    z-index: 1;
+}
+
+div[class^="col rounded-4 bg-light-subtle"]:hover {
+    scale: 1.01;
+    box-shadow: 0 0 200px -50px #000;
+    z-index: 2;
+}
+
+div[class^="col rounded-4 bg-light"]:active {
+    float: -10px;
+}
