@@ -31,6 +31,6 @@ function validateForm(event) {
   }
 
   if (pwBool && emailBool) {
-    window.location.href = "../landing.html";
+    window.location.href = "../index.html";
   }
 }
