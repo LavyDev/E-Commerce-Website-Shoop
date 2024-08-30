@@ -5,8 +5,8 @@ function validateEmail(email) {
 
 function validateForm(event) {
   event.preventDefault();
-  var email = document.signUpForm.email.value;
-  var pw = document.signUpForm.pass.value;
+  var email = document.loginForm.email.value;
+  var pw = document.loginForm.pass.value;
 
   var emailElmnt = document.getElementById("email");
   var pwElmnt = document.getElementById("pass");
